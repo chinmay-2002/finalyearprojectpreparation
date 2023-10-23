@@ -15,16 +15,22 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light py-3">
       <div class="container">
-        <a href="" class="navbar-brand">PrepMaster</a>
+        <a href="" class="navbar-brand"><b>PrepMaster</b></a>
 
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navmenu"
-        ></button>
+        >
+          <div class="hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
@@ -45,6 +51,76 @@
       </div>
     </nav>
 
+    <!-- SHowcases  -->
+    <section class="bgwale bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Prep Master</span></h1>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              ipsa dolores cum minima perferendis iste dolorem cumque architecto
+              aperiam? Enim exercitationem repellendus corporis, assumenda
+              delectus laborum? Reiciendis eius consequatur iure!
+            </p>
+            <button class="btn btn-primary btn-lg">Register For Test</button>
+          </div>
+          <img
+            src="../assets/images/model1.png"
+            class="model1 img-fluid"
+            alt="Asch"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bgmadhle bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Prep Master</span></h1>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              ipsa dolores cum minima perferendis iste dolorem cumque architecto
+              aperiam? Enim exercitationem repellendus corporis, assumenda
+              delectus laborum? Reiciendis eius consequatur iure!
+            </p>
+            <button class="btn btn-primary btn-lg">Register For Test</button>
+          </div>
+          <img
+            src="../assets/images/model1.jpg"
+            class="model1 img-fluid"
+            alt="Asch"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bgwale bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Prep Master</span></h1>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              ipsa dolores cum minima perferendis iste dolorem cumque architecto
+              aperiam? Enim exercitationem repellendus corporis, assumenda
+              delectus laborum? Reiciendis eius consequatur iure!
+            </p>
+            <button class="btn btn-primary btn-lg">Register For Test</button>
+          </div>
+          <img
+            src="../assets/images/model1.png"
+            class="model1 img-fluid"
+            alt="Asch"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
